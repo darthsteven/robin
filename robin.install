@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_uninstall().
+ */
+function robin_uninstall() {
+  variable_del('robin_num_items_blog');
+}

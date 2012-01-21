@@ -1,0 +1,4 @@
+name = "Robin"
+description = "This module allows ad admin to alter the number of blog posts shown in a view."
+core = "7.x"
+dependencies[] = "views"
